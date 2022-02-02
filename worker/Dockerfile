@@ -1,3 +1,3 @@
-FROM posthog/posthog:release-1.8.0
+FROM posthog/posthog:release-1.6.0
 
 CMD ["./bin/docker-worker"]
